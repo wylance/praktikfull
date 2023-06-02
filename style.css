@@ -1,0 +1,783 @@
+body {
+    margin: 0 auto;
+    background: url(https://sjedi5.com/wp-content/uploads/2013/12/blog-background-unsmushed.jpg);
+    background-repeat: no-repeat
+}
+
+header {
+    background: lightblue;
+    width: 1920px;
+    height: 125px;
+    position: fixed;
+    display: flex;
+}
+
+p {
+    font-family: Roboto Condensed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 150px;
+    margin: 10px 10px 10px 50px
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 50px;
+    font-family: Balsamiq Sans;
+}
+
+.auth {
+    width: 115px;
+    position: absolute;
+    right: 50px;
+    top: 6px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 175px;
+    display: flex;
+    list-style: none;
+    top: 35px;
+}
+
+.menu li {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s all;
+    font-family: Balsamiq Sans;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.8s all;
+}
+
+.full {
+    background-color: white;
+    width: 1600px;
+    height: 1750px;
+    margin: auto;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
+}
+
+.imgs {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.imgs img {
+    width: 525px;
+    padding: 200px 25px 100px 25px;
+}
+
+
+.information {
+    width: 100%;
+    display: flex;
+    background: rgb(249,249,249);
+    background: linear-gradient(180deg, rgba(249,249,249,0.5) 15%, rgba(0,181,194,1) 100%);
+    border-top: 1px solid lightblue;
+}
+
+.left {
+    width: 50%;
+    height: 00px;
+    padding: 70px;
+}
+
+.left h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Balsamiq Sans;
+}
+
+.left p {
+    font-size: 24px;
+    
+}
+
+.right {
+    width: 50%;
+    height: 650px;
+    padding: 125px 70px;
+}
+
+.right img {
+    width: 650px;
+}
+
+.tur {
+    background: #00b5c2;
+    width: 100%;
+    height: 700px
+}
+
+.line {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center
+}
+
+.spisok {
+    margin:  50px auto;
+    width: 95%;
+    height: 530px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.linefirst {
+   width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center
+}
+
+.info {
+    width: 100%;
+    height: 550px;
+    transition: 0.5s all;
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+}
+
+.info p {
+    color: white;
+    padding: 10px
+}
+
+.info a {
+    color: white;
+}
+
+.info:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+.imgs {
+    width: 100%;
+    height: 300px;
+    padding: 10px
+}
+
+.link {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s all;
+    border: 1px solid #00b5c2;
+    font-family: Balsamiq Sans;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    height: 100px;
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 600px;  
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 50px
+}
+
+.numbers {
+    position: absolute;
+    left: 350px;
+}
+
+.email {
+    position: absolute;
+    right: 350px
+}
+
+.icons {
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around
+}
+
+.icon {
+    width: 300px;
+    height: 300px;
+}
+
+.icon img {
+    width: 70%;
+    opacity: 0.1;
+    transition: 0.6s all;
+}
+
+.icon img:hover {
+    opacity: 1;
+    width: 75%;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+    background: lightblue;
+    width: 1200px;
+    height: 78px;
+    position: fixed;
+    display: flex;
+}
+
+p {
+    font-family: Roboto Condensed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 94px;
+    margin: 6px 6px 6px 31px
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 31px;
+    font-family: Balsamiq Sans;
+}
+
+.auth {
+    width: 60px;
+    position: absolute;
+    right: 31px;
+    top: 10px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 110px;
+    display: flex;
+    list-style: none;
+    top: 22px;
+}
+
+.menu li {
+    padding-left: 31px;
+    font-size: 19px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s all;
+    font-family: Balsamiq Sans;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.8s all;
+}
+
+.full {
+    background-color: white;
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
+}
+
+.imgs {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.imgs img {
+    width: 328px;
+    padding: 125px 15px 62px 15px;
+}
+
+
+.information {
+    width: 100%;
+    display: flex;
+    background: rgb(249,249,249);
+    background: linear-gradient(180deg, rgba(249,249,249,0.5) 15%, rgba(0,181,194,1) 100%);
+    border-top: 1px solid lightblue;
+    height: 500px;
+}
+
+.left {
+    width: 50%;
+    height: 00px;
+    padding: 44px;
+}
+
+.left h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Balsamiq Sans;
+}
+
+.left p {
+    font-size: 15px;
+    
+}
+
+.right {
+    width: 50%;
+    height: 406px;
+    padding: 78px 44px;
+}
+
+.right img {
+    width: 405px;
+}
+
+.tur {
+    background: #00b5c2;
+    width: 100%;
+
+}
+
+.line {
+    width: 100%;
+    height: 31px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+    
+    .line h1 {
+        font-size: 25px;
+    }
+
+.spisok {
+    margin:  31px auto;
+    width: 95%;
+    height: 334px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.linefirst {
+   width: 100%;
+    height: 187px;
+    display: flex;
+    justify-content: center
+}
+
+.info {
+    width: 100%;
+    height: 344px;
+    transition: 0.5s all;
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+}
+
+.info p {
+    color: white;
+    padding: 10px
+}
+
+.info a {
+    color: white;
+}
+
+.info:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+.imgs {
+    width: 100%;
+    height: 187px;
+    padding: 10px
+}
+
+.link {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s all;
+    border: 1px solid #00b5c2;
+    font-family: Balsamiq Sans;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    height: 70px;
+    padding: 16px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 375px;  
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 25px
+}
+
+.numbers {
+    position: absolute;
+    left: 219px;
+}
+    
+    .info h1 {
+        font-size: 24px
+    }
+    
+    .info p {
+        font-size: 10px
+    }
+
+.email {
+    position: absolute;
+    right: 219px
+}
+    .icons {
+    width: 100%;
+    height: 187px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-around
+}
+
+.icon {
+    width: 187px;
+    height: 187px;
+}
+
+.icon img {
+    width: 70%;
+    opacity: 0.1;
+    transition: 0.6s all;
+}
+
+.icon img:hover {
+    opacity: 1;
+    width: 75%;
+}
+}
+
+@media screen and (max-width: 960px) {
+        header {
+    background: lightblue;
+    width: 960px;
+    height: 62px;
+    position: fixed;
+    display: flex;
+}
+
+p {
+    font-family: Roboto Condensed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 60px;
+    margin: 4px 4px 4px 20px
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 24px;
+    font-family: Balsamiq Sans;
+}
+
+.auth {
+    width: 45px;
+    position: absolute;
+    right: 31px;
+    top: 10px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 110px;
+    display: flex;
+    list-style: none;
+    top: 22px;
+}
+
+.menu li {
+    padding-left: 21px;
+    font-size: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s all;
+    font-family: Balsamiq Sans;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.8s all;
+}
+
+.full {
+    background-color: white;
+    width: 800px;
+    height: 1010px;
+    margin: auto;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
+}
+
+.imgs {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.imgs img {
+    width: 262px;
+    padding: 125px 15px 62px 15px;
+}
+
+
+.information {
+    width: 100%;
+    display: flex;
+    background: rgb(249,249,249);
+    background: linear-gradient(180deg, rgba(249,249,249,0.5) 15%, rgba(0,181,194,1) 100%);
+    border-top: 1px solid lightblue;
+    height: 400px;
+}
+
+.left {
+    width: 50%;
+    height: 00px;
+    padding: 35px;
+}
+
+.left h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Balsamiq Sans;
+}
+
+.left p {
+    font-size: 12px;
+    
+}
+
+.right {
+    width: 50%;
+    height: 325px;
+    padding: 62px 35px;
+}
+
+.right img {
+    width: 325px;
+}
+
+.tur {
+    background: #00b5c2;
+    width: 100%;
+
+}
+
+.line {
+    width: 100%;
+    height: 31px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+    
+    .line h1 {
+        font-size: 20px;
+    }
+
+.spisok {
+    margin:  25px auto;
+    width: 95%;
+    height: 267px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.linefirst {
+   width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center
+}
+
+.info {
+    width: 100%;
+    height: 275px;
+    transition: 0.5s all;
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+}
+
+.info p {
+    color: white;
+    padding: 10px
+}
+
+.info a {
+    color: white;
+}
+
+.info:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+.imgs {
+    width: 100%;
+    height: 150px;
+    padding: 10px
+}
+
+.link {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s all;
+    border: 1px solid #00b5c2;
+    font-family: Balsamiq Sans;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    height: 80px;
+    padding: 16px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 340px;  
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 15px
+}
+
+.numbers {
+    position: absolute;
+    left: 175px;
+}
+    
+    .info h1 {
+        font-size: 20px
+    }
+    
+    .info p {
+        font-size: 8px
+    }
+
+.email {
+    position: absolute;
+    right: 175px
+}
+    .icons {
+    width: 100%;
+    height: 100px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.icon img {
+    width: 70%;
+    opacity: 0.1;
+    transition: 0.6s all;
+}
+
+.icon img:hover {
+    opacity: 1;
+    width: 75%;
+}
+}
